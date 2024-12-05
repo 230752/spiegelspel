@@ -44,7 +44,7 @@
         <div id="section2">
             <div class="section2_1">
                 <div class="mw_img">
-                    <img src="public/assets/img/meerwaardeimg.jpg" alt="" height="300vw">
+                    <img src="assets/img/meerwaardeimg.jpg" alt="" height="300vw">
                 </div>
                 <div class="section2_title">
                     <h1>Doel Spiegelspel</h1>
@@ -53,15 +53,15 @@
             </div>
             <div class="section2_2">
                 <div class="sec2content">
-                    <img src="public/assets/img/kwaliteit.jpg" alt="" width="50%">
+                    <img src="assets/img/kwaliteit.jpg" alt="" width="50%">
                     <span>kwaliteit</span>
                 </div>
                 <div class="sec2content">
-                    <img src="public/assets/img/kwaliteit.jpg" alt="" width="50%">
+                    <img src="assets/img/kwaliteit.jpg" alt="" width="50%">
                     <span>Samerwerken</span>
                 </div>
                 <div class="sec2content">
-                    <img src="public/assets/img/kwaliteit.jpg" alt="" width="50%">
+                    <img src="assets/img/kwaliteit.jpg" alt="" width="50%">
                     <span>Teamontwikkeling</span>
                 </div>
             </div>
@@ -71,7 +71,7 @@
             <div id="info-section-content">
                 <h1 id="section-title">HET SPIEGELSPEL</h1>
                 <div id="box1">
-                    <img class="box-img" src="img/leiderschap.png" alt="img" />
+                    <img class="box-img" src="assets/img/spiegelspel-section/leiderschap.png" alt="img" />
                     <p class="box-text">
                         Ontdek het krachtige Spiegelspel: een dynamische methode om samen als
                         team de kwaliteit, prestaties en ontwikkeling te bespreken. In dit spel
@@ -86,7 +86,7 @@
                     </p>
                 </div>
                 <div id="box2">
-                    <img class="box-img" src="img/groei-werkplezier.png" alt="img" />
+                    <img class="box-img" src="assets/img/spiegelspel-section/werkplezier.png" alt="img" />
                     <p class="box-text">
                         Een externe of intern opgeleide spelleider begeleidt het spel, waardoor
                         de teammanager en het team zich volledig kunnen richten op hun werk
@@ -96,7 +96,7 @@
                     </p>
                 </div>
                 <div id="box3">
-                    <img class="box-img" src="img/leren-ontwikkelen.png" alt="img" />
+                    <img class="box-img" src="assets/img/spiegelspel-section/ontwikkelen.png" alt="img" />
                     <p class="box-text">
                         Tijdens het Spiegelspel ontstaat vanzelf interactie in het team,
                         resulterend in waardevolle dialogen en zelfreflectie. De uitkomsten

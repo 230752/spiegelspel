@@ -6,12 +6,12 @@
 </div>
 <div id="f-socials">
     <a class="f-social" href="">
-        <img src="<?= BASEURL_CDN ?>img/twitter_icon.png" alt="">
+        <img src="assets/img/footer/twitter_icon.png" alt="">
     </a>
     <a class="f-social" href="">
-        <img src="<?= BASEURL_CDN ?>img/fb_icon.png" alt="">
+        <img src="assets/img/footer/fb_icon.png" alt="">
     </a>
     <a class="f-social" href="">
-        <img src="<?= BASEURL_CDN ?>img/insta_icon.png" alt="">
+        <img src="assets/img/footer/insta_icon.png" alt="">
     </a>
 </div>
