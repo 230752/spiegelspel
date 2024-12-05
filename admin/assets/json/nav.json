@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Home",
+    "icon": "home.png",
+    "url": ""
+  },
+  {
+    "name": "Contact Inzendingen",
+    "icon": "form.png",
+    "url": "contact-inzendingen"
+  },
+  {
+    "name": "Website Content",
+    "icon": "browser.png",
+    "url": "website-content"
+  },
+  {
+    "name": "Foto's",
+    "icon": "picture.png",
+    "url": "fotos"
+  },
+  {
+    "name": "Admin Gebruikers",
+    "icon": "admin-alt.png",
+    "url": "admin-gebruikers"
+  },
+  {
+    "name": "Admin Permissies",
+    "icon": "settings.png",
+    "url": "admin-gebruikers-permissies"
+  }
+]

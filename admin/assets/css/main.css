@@ -1,0 +1,42 @@
+body {
+    display: grid;
+    grid-template-areas: "nav header" "nav main";
+    grid-template-columns: 17.5% 82.5%;
+    grid-template-rows: 7.5% 92.5%;
+
+    header {
+        grid-area: header;
+        background-color: var(--headerBackground);
+        width: 100%;
+        height: 100%;
+    }
+
+    aside {
+        grid-area: nav;
+        background-color: var(--navBackground);
+        width: 100%;
+        height: 100%;
+    }
+
+    main {
+        grid-area: main;
+        background-color: var(--backgroundMain);
+        width: 100%;
+        height: 100%;
+        overflow-y: scroll;
+
+        #content {
+            width: 100%;
+            min-height: 100%;
+            padding: 1%;
+
+            h1 {
+                margin-bottom: 2%;
+            }
+        }
+
+        footer {
+            background-color: var(--footerBackground);
+        }
+    }
+}

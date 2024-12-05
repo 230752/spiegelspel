@@ -1,0 +1,109 @@
+body {
+    aside {
+        p {
+            color: var(--paragraphOthers);
+        }
+
+        #head {
+            height: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            a {
+                width: 90%;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        nav {
+            height: 82.5%;
+            padding: 1% 3%;
+
+            .nav-item {
+                padding: .5% 1%;
+                margin: 7.5% 0;
+                width: 100%;
+                display: flex;
+                align-items: center;
+
+                .content {
+                    width: 90%;
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        aspect-ratio: 1/1;
+                        width: 15%;
+                        margin-right: 5%;
+                    }
+
+                    p {
+                        font-family: segoe-ui;
+                        font-weight: bold;
+                        font-size: 1.25em;
+                        display: inline-block;
+                    }
+                }
+
+                .arrow {
+                    width: 10%;
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        aspect-ratio: 1/1;
+                        width: 75%;
+                        margin-left: 0;
+                        transition: .5s ease;
+                    }
+                }
+
+                &:hover {
+                    .arrow {
+                        img {
+                            margin-left: 30%;
+                        }
+                    }
+                }
+            }
+        }
+
+        #bottom {
+            height: 7.5%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            #logout-btn {
+                width: 90%;
+                padding: .5% 1%;
+                display: flex;
+                align-items: center;
+
+                p {
+                    font-family: segoe-ui;
+                    font-weight: bold;
+                    font-size: 1.25em;
+                }
+
+                img {
+                    aspect-ratio: 1/1;
+                    width: 10%;
+                    margin-right: 2.5%;
+                    transition: .5s ease;
+                }
+
+                &:hover {
+                    img {
+                        margin-right: 7.5%;
+                    }
+                }
+            }
+        }
+    }
+}
