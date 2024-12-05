@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/section3.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/contact-form.css">
 
     <!--    Linking of the javascript files, defer = reading/link the file at last-->
     <script defer src="assets/js/menu.js"></script>
@@ -110,6 +111,28 @@
             </div>
         </section>
 
+        <section id="contact-form-section">
+            <h2>Contact</h2>
+            <form id="contact-form" action="your_form_processing_script.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Voornaam:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="surname">Achternaam:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Vraag:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Verstuur</button>
+            </form>
+        </section>
 
     </main>
 
