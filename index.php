@@ -29,6 +29,7 @@
 
     <main>
         <div id="section1">
+            <img class="stockimg" src="assets/img/stockimg.jpg" alt="">
             <div class="front_tekst">
                 <h1 style="font-size:100px">Spiegelspel</h1>
                 <h2>Focus6</h2>
