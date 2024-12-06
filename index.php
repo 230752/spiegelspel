@@ -88,7 +88,7 @@ curl_close($curl);
                 <h1 id="section-title">HET SPIEGELSPEL</h1>
                 <?php
                 foreach ($section3 as $post) {
-                    echo '<p class="box-text">' . $post['content']['rendered'] . '</p>';
+                    echo $post['content']['rendered'];
                 } ?>
             </div>
         </section>
@@ -110,7 +110,7 @@ curl_close($curl);
                 </div>
                 <div class="form-group">
                     <label for="message">Vraag:</label>
-                    <textarea id="message" name="message" required style="resize: vertical"></textarea>
+                    <textarea id="message" name="message" required></textarea>
                 </div>
                 <button type="submit">Verstuur</button>
             </form>

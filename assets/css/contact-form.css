@@ -97,6 +97,11 @@
     background: #fff;
 }
 
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
 /* Submit button */
 #contact-form button {
     padding: 12px 20px;
