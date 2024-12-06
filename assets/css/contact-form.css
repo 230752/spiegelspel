@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap');
 
-#contact-form-section {
+#section4 {
     background-color: #f8f8f8;
     padding: 50px 20px;
     display: flex;
@@ -12,7 +12,7 @@
     color: #333; 
 }
 
-#contact-form-section h2 {
+#section4 h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 2.2rem;
     font-weight: 700;
@@ -21,7 +21,7 @@
     margin: 0;
 }
 
-#contact-form-container {
+#section4-container {
     display: flex;
     justify-content: center;
     align-items: flex-start;

@@ -1,3 +1,17 @@
+<?php
+$curl = curl_init();
+
+curl_setopt($curl, CURLOPT_URL, "https://u230752.gluwebsite.nl/wordpress/wp-json/wp/v2/posts?categories=6");
+
+curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+
+$response = curl_exec($curl);
+
+$section3 = json_decode($response, true);
+
+curl_close($curl);
+?>
+
 <!doctype html>
 <html lang="en-AU">
 
@@ -72,46 +86,14 @@
         <section id="section3">
             <div id="info-section-content">
                 <h1 id="section-title">HET SPIEGELSPEL</h1>
-                <div id="box1">
-                    <img class="box-img" src="assets/img/spiegelspel-section/leiderschap.png" alt="img" />
-                    <p class="box-text">
-                        Ontdek het krachtige Spiegelspel: een dynamische methode om samen als
-                        team de kwaliteit, prestaties en ontwikkeling te bespreken. In dit spel
-                        maakt het team gezamenlijk een waardevolle 'foto' van hun functioneren
-                        en identificeert gebieden voor groei. Het spel creëert een plezierige en
-                        veilige sfeer, waarin teamleden worden uitgenodigd om zich vrijelijk uit
-                        te spreken en deel te nemen. Het bewezen succes van het Spiegelspel
-                        wordt erkend door teamleden en teammanagers. Het omvat alle essentiële
-                        onderwerpen voor teamleren, met aandacht voor de behoeften van een
-                        Highperformance team en de ISO-/HKZnormen. Het Spiegelspel biedt een
-                        interne audit en systeembeoordeling in één.
-                    </p>
-                </div>
-                <div id="box2">
-                    <img class="box-img" src="assets/img/spiegelspel-section/werkplezier.png" alt="img" />
-                    <p class="box-text">
-                        Een externe of intern opgeleide spelleider begeleidt het spel, waardoor
-                        de teammanager en het team zich volledig kunnen richten op hun werk
-                        zonder zich zorgen te maken over de methodiek of het proces. Vertrouwen
-                        in het vakmanschap van de professional staat centraal, waarbij alle
-                        teamleden actief deelnemen en bijdragen aan de teamontwikkeling.
-                    </p>
-                </div>
-                <div id="box3">
-                    <img class="box-img" src="assets/img/spiegelspel-section/ontwikkelen.png" alt="img" />
-                    <p class="box-text">
-                        Tijdens het Spiegelspel ontstaat vanzelf interactie in het team,
-                        resulterend in waardevolle dialogen en zelfreflectie. De uitkomsten
-                        worden vervolgens vastgelegd in een concreet zelfevaluatierapport met
-                        sterke punten en ontwikkelpunten van het team. Dit rapport wordt
-                        overhandigd aan de teammanager en vormt een solide basis voor het
-                        opstellen van een effectief teamplan.
-                    </p>
-                </div>
+                <?php
+                foreach ($section3 as $post) {
+                    echo '<p class="box-text">' . $post['content']['rendered'] . '</p>';
+                } ?>
             </div>
         </section>
 
-        <section id="contact-form-section">
+        <section id="section4">
             <h2>Contact</h2>
             <form id="contact-form" action="your_form_processing_script.php" method="POST">
                 <div class="form-group">
@@ -128,7 +110,7 @@
                 </div>
                 <div class="form-group">
                     <label for="message">Vraag:</label>
-                    <textarea id="message" name="message" required></textarea>
+                    <textarea id="message" name="message" required style="resize: vertical"></textarea>
                 </div>
                 <button type="submit">Verstuur</button>
             </form>
