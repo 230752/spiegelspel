@@ -95,14 +95,14 @@ curl_close($curl);
 
         <section id="section4">
             <h2>Contact</h2>
-            <form id="contact-form" action="your_form_processing_script.php" method="POST">
+            <form id="contact-form" action="" method="POST">
                 <div class="form-group">
                     <label for="name">Voornaam:</label>
                     <input type="text" id="name" name="name" required>
                 </div>
                 <div class="form-group">
-                    <label for="surname">Achternaam:</label>
-                    <input type="text" id="name" name="name" required>
+                    <label for="lastname">Achternaam:</label>
+                    <input type="text" id="lastname" name="lastname" required>
                 </div>
                 <div class="form-group">
                     <label for="email">E-mail:</label>
